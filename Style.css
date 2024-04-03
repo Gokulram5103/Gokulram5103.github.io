@@ -1,0 +1,29 @@
+.navigator{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 1vw;
+    box-shadow: 0 0 10000px rgba(255, 255, 255, 0.838);
+    position: sticky;
+    top: 0;
+}
+*{
+    display: block;
+    padding: 0;
+    background-color: black;
+    margin: 0;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.routes{
+    display: flex;
+  flex-direction: row;
+  
+}
+.routes p{
+  margin-left: 3vw; 
+}
+p:hover{
+    font-size: larger;
+    cursor: pointer;
+}
